@@ -1,0 +1,27 @@
+name: bovine_embryo_survival_prediction
+channels:
+  - defaults
+dependencies:
+  - scipy
+  - numpy
+  - pandas
+  - jupyter
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pyyaml
+  - torchvision
+  - pytorch
+  - munch
+  - tensorboard
+
+  # dev
+  - flake8
+  - black
+
+
+  - pip
+  - pip:
+    - osfclient
+    - ramp-workflow
+    - opencv-python
